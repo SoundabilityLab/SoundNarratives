@@ -10,6 +10,9 @@
     </h2>
 </div>
 
+![Status](https://img.shields.io/badge/Version-alpha-brightgreen.svg)
+![License](https://img.shields.io/badge/License-TBD-blue.svg)
+
 Copyright © 2025 The Regents of the University of Michigan
 
 ## Frontend
@@ -18,7 +21,6 @@ Start UI
 
 ```bash
 npm install
-# npm start
 HTTPS=true SSL_CRT_FILE=../cert.pem SSL_KEY_FILE=../key.pem PORT=2000 npm start
 ```
 
@@ -42,9 +44,10 @@ python server.py
 
 ## Trouble shooting
 
-- Use incognito mode
+- Use incognito mode with Google Chrome browser
 
-## iPad settings
+## Support 
 
-- [Guided Access](https://www.lifewire.com/prevent-someone-from-exiting-an-ipad-app-4103777)
-- Remember to reload both pages right before you click the start button
+- Developed with [Dhruv Jain](https://web.eecs.umich.edu/~profdj/) and collaborators at [The Soundability Lab](https://soundability.eecs.umich.edu)
+- Contact [Leo Wu](https://binomial14.github.io) @SoundabilityLab through email `lyuanwu` at umich.edu
+
