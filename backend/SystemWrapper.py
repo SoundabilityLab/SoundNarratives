@@ -1,0 +1,39 @@
+import asyncio
+import threading
+
+from ClientAudio import ClientAudio
+# from GoogleSpeechRecognition import google_speech_recognition
+from AFInference import af_model_inference, af_model_long_inference
+
+clients = {}
+
+class SystemWrapper:
+    async def start_client(c_id,socket,config,api,LOGGER):
+        if c_id not in clients.keys():
+            client = ClientAudio(threading.Thread(target=asyncio.run, args=(SystemWrapper.sound_caption(c_id,config,LOGGER),)),socket,api)
+            client.start()
+            clients[c_id] = client
+        else:
+            LOGGER.info("Warning! Client id {c_id} exists!")
+
+    async def sound_caption(c_id,config,LOGGER):
+        client = clients[c_id]
+        if config['withSummary']:
+            print("Part II: ")
+            while client.isOn:
+                await af_model_long_inference(client,config,LOGGER)
+        else:
+            print("Part III: ")
+        while client.isOn:
+            await af_model_inference(client,config,LOGGER)
+    
+    async def stop_client(c_id):
+        if c_id in clients.keys():
+            clients[c_id].close()
+            del clients[c_id]
+    
+    def receive_audio_data(c_id, audio_data):
+        if c_id not in clients.keys():
+            return
+        
+        clients[c_id].add_data(audio_data)
