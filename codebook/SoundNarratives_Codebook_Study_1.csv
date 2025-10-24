@@ -1,0 +1,22 @@
+First-Level,Second-Level,Third-Level,description,P01,P02,P03,P04,P05,P06,P07,P08,P09,P10
+Experience,Previous experience with sound awareness technologies,Prior experience,"Have used any sound awareness technologies before (SoundWatch, visual doorbell, sound recognition app,...)",1,1,1,1,1,1,0,0,0,1
+,,Unsatisfied with existing technologies,Not satisfied with existing technology,1,1,1,1,1,1,0,0,0,1
+,,Interest,Interested in better sound awareness technology,1,1,1,1,1,1,1,1,1,1
+Preference,Requirements for sound information,Semantic details,Want more details of sounds besides specific sound types,1,1,1,1,1,1,1,1,1,1
+,,Location,Want to know the location of sounds,1,1,1,1,1,1,1,1,1,1
+,,Loudness,Want to know the loudness of sounds,0,1,0,1,1,1,1,0,1,0
+,,Spatial,"Want to know the proximity of sounds (distance, approaching/leaving)",1,1,1,1,0,0,1,1,1,0
+,,Relevance,Want to know sounds related to importance/safety/emergency,1,0,1,0,1,1,0,0,1,1
+,,Prominence,Want to know the prominent sound,1,0,0,0,0,1,0,0,1,1
+,,Social cues,"Want to know social cues from sounds (e.g. emotion/tone, need to respond)",1,1,1,1,1,0,1,1,1,1
+,,Pace,Want to know the speed of sounds,0,0,0,1,0,0,0,1,0,1
+,,Pattern,Want to know the pattern of sounds (rhythmic/repetitive/pitch/harmonic...),0,0,0,1,0,0,0,1,1,1
+,,Priority,Want to have levels of priority of sound awareness (important sounds first),0,1,1,0,1,1,0,1,0,0
+Design,Prefered description,Long description,Prefer longer descriptions with all the details,0,0,0,0,0,0,0,1,0,0
+,,Short description,"Prefer short, precise and specific description (maybe an option for more details, but don't display all at once)",1,1,1,1,0,1,1,0,0,1
+,,Flexible length,The length of the description should depend on different cases,0,0,0,0,0,0,0,0,1,0
+,Customizable description,Customizability,"Want customizable/different audio descriptions in different scenarios like indoor, outdoor",1,1,1,1,1,1,1,1,1,1
+,Concerns about the technology,On-device,"Concerns about the device running the technology (e.g., battery, internet)",0,0,1,0,0,0,1,0,0,0
+,,Inaccurate,Concerns about feeling confused because the description is inaccurate or the user can't tell whether it's correct,1,0,0,1,0,1,0,0,0,0
+,,Inappropriate ,Concerns about the description being inappropriate or offensive ,0,0,0,1,0,1,0,0,0,1
+,,Privacy,"Concerns about privacy (e.g., always listening, data storage)",1,0,0,1,0,0,1,0,0,1

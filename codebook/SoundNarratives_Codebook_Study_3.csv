@@ -1,0 +1,26 @@
+First-Level,Second-Level,Third-Level,description,P01,P02,P03,P04,P05,P06,P07,P08,P09,P10
+Preference between SoundNarratives and AudioFlamingo,Preference for description,Relevance,Prefer the description to contain the most important information or information related to what people focus on ,0,1,0,0,0,0,1,0,0,1
+,,Comprehensive,Prefer comprehensive descriptions with more specific details,1,1,0,1,1,1,0,1,1,0
+,,Visual alignment,Prefer descriptions that align with visual cues,1,0,1,1,1,1,0,0,1,1
+,,Immersive,Prefer the descriptions that are more immersive ,0,0,0,1,0,1,0,0,0,0
+,,Emergency,Prefer descriptions that contain safety or emergency information ,1,0,0,1,1,1,0,0,1,1
+,,Visual complementary,Prefer descriptions for sounds that happen outside of sights,1,0,0,0,0,1,0,0,0,0
+,Relation to sight,Distraction related to visual,Dislike descriptions for sounds that happen outside of sights (because of distration),0,0,1,0,0,0,0,0,0,0
+,,Confirmation,"Want to confirm with the imagination of the sounds ""should happen in this scenario""",0,0,0,0,0,0,0,1,1,0
+SoundNarratives Usability,Drawback of the description,Information overload,Feel information overloaded or get distracted by the descriptions with timestamps,0,1,1,0,0,1,1,1,0,0
+,,Misalignment,Confused by the description because it doesn't fit well with what they perceive,0,0,1,0,0,0,1,0,1,0
+,,General,"Descriptions are too general, want in-depth information",1,0,1,1,0,0,0,1,1,1
+,,Repetitive,Descriptions with timestamps are repetitive with same information ,1,1,0,1,1,0,0,0,0,0
+,,Already known,Feel description is not useful because it only provides something already known,1,0,1,0,0,0,0,0,0,0
+,Requirement of the description,Speech recognition,Want contents of speech in the description when speech is presented ,1,1,1,0,1,0,1,0,0,0
+,Benefits with description,Visual cues,Use visual cues and descriptions to gain better understanding,1,0,1,1,1,0,1,0,0,0
+,Preference for the description,Easy-to-understand,Prefer summary because it's accurate and easy to understand,0,1,1,0,0,1,1,1,0,1
+,,Common scenes,Prefer summary in common or stationary scenarios,0,1,0,0,0,1,0,0,0,0
+,,Sequential scenes,Prefer descriptions with timestamps for moving or sequential or changing events,1,1,0,0,1,1,0,0,0,0
+,,No speech scenes,Prefer descriptions with timestamps when no speech is presented,0,0,1,1,0,0,0,0,0,1
+,,Summary and timestamps,Prefer both summary and description with timestamps at the same time for different benefits,1,0,0,0,0,0,1,1,1,1
+Real-world usage of SoundNarratives,Requirement,Contexts of sounds,"Want more contexts of the sounds (e.g., for human speech, is it from a TV or there's someone speaking outside of sight)",1,0,1,0,0,0,0,0,0,1
+,,Description mismatch,Dislike the mismatch between the description with timestamps and the time the sound happens,0,0,0,0,0,0,0,1,0,0
+,Useful scenes,Emergency,SoundNarrattives could be useful for emergencies notification,1,0,1,1,0,1,0,1,0,0
+,,Indoor activities,SoundNarrattives could be useful for indoor activities,1,1,0,0,1,1,0,1,1,0
+,,Outdoor activities,SoundNarratives could be useful for outdoor activities,0,0,0,0,0,0,0,1,0,0

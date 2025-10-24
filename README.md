@@ -15,7 +15,9 @@
 
 Copyright © 2025 The Regents of the University of Michigan
 
-## Frontend
+## System
+
+### Frontend
 
 Start UI
 
@@ -24,7 +26,7 @@ npm install
 HTTPS=true SSL_CRT_FILE=../cert.pem SSL_KEY_FILE=../key.pem PORT=2000 npm start
 ```
 
-## Backend
+### Backend
 
 Build python environment:
 
@@ -42,9 +44,13 @@ python server.py
 ```
 
 
-## Trouble shooting
+### Trouble shooting
 
 - Use incognito mode with Google Chrome browser
+
+## Codebook
+
+The codebooks for the formative study and the user study.
 
 ## Support 
 
