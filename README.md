@@ -1,6 +1,6 @@
 <div align="center" style="display: flex; justify-content: center; align-items: center; text-align: center;">
   <a href="https://github.com/binomial14/SoundNarratives" style="margin-right: 20px; text-decoration: none; display: flex; align-items: center;">
-    <img src="frontend/public/soundnarratives.ico" alt="SoundNarratives" width="120">
+    <img src="system/frontend/public/soundnarratives.ico" alt="SoundNarratives" width="120">
   </a>
 </div>
 
