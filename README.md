@@ -11,7 +11,7 @@
 </div>
 
 ![Status](https://img.shields.io/badge/Version-alpha-brightgreen.svg)
-![License](https://img.shields.io/badge/License-TBD-blue.svg)
+[![License](https://img.shields.io/badge/License-PolyForm%20Noncommercial%201.0.0-blue.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 
 Copyright © 2025 The Regents of the University of Michigan
 
@@ -57,3 +57,16 @@ The codebooks for the formative study and the user study.
 - Developed with [Dhruv Jain](https://web.eecs.umich.edu/~profdj/) and collaborators at [The Soundability Lab](https://soundability.eecs.umich.edu)
 - Contact [Leo Wu](https://binomial14.github.io) @SoundabilityLab through email `lyuanwu` at umich.edu
 
+## Citation
+
+Please use the following citation for SoundNarratives.
+
+```
+@inproceedings{wu2025soundnarratives,
+  title={SoundNarratives: Rich Auditory Scene Descriptions to Support Deaf and Hard of Hearing People},
+  author={Wu, Liang-Yuan and Jain, Dhruv},
+  booktitle={Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility},
+  pages={1--15},
+  year={2025}
+}
+```
